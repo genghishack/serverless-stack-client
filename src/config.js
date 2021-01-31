@@ -1,4 +1,5 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-west-2",
     BUCKET: "sls-notes-app-upload",
